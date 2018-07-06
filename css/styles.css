@@ -48,6 +48,19 @@ h1{
     overflow: hidden;
 }
 
+.flex-item {
+    background-color: hotpink;
+    width: 30%;
+    margin: 1em;
+    text-align: center;
+    }
+    
+ .section-img{
+        margin: 0 auto;
+        width: 100%
+    }
+    
+
 .flex-container {
     display: flex;
     display: -webkit-flex;
@@ -63,26 +76,10 @@ footer {
 main {
     flex: 2;
     margin: 1em;
+    background-color: aqua;
 }
 
 aside {
     flex: 1;
-    margin: 1em;
-}
-
-.flex-item {
-background-color: hotpink;
-width: 30%;
-margin: 1em;
-text-align: center;
-}
-
-.section-img{
-    margin: 0 auto;
-    width: 100%
-}
-
-main {
-    flex: 2;
     margin: 1em;
 }
